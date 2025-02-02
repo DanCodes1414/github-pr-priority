@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace PriorityPR.Integrations.Jira.Models;
 
-public abstract class JiraFixVersion
+public class JiraFixVersion
 {
     [JsonPropertyName("name")]
     public string Name { get; set; }

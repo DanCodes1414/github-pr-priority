@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace PriorityPR.Integrations.Github.Helpers;
 
-public abstract class InstallationAccessToken
+public class InstallationAccessToken
 {
     [JsonPropertyName("token")]
     public string Token { get; set; }

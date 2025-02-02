@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace PriorityPR.Integrations.Github.Models;
 
-public abstract class GithubUser
+public class GithubUser
 {
     [JsonPropertyName("id")]
     public int Id { get; set; }

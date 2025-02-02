@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace PriorityPR.Integrations.Github.Models;
 
-public abstract class GithubPullRequest
+public class GithubPullRequest
 {
     [JsonPropertyName("title")]
     public string Title { get; set; }

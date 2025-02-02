@@ -16,7 +16,7 @@ public class SlackClient(HttpClient client) : ISlackClient
 
     public async Task SendPullRequestsToPrioritise(IEnumerable<PullRequest> pullRequests)
     {
-        var slackMessage = ":panda_face: *Daily PR Priority List!*. Reviewing PRs at the top should be prioritised.\n";
+        var slackMessage = ":panda_face: *Daily PR Priority List!* Reviewing PRs at the top should be prioritised.\n";
         foreach (var pullRequest in pullRequests)
         {
             var ticket = pullRequest.LinkedTicket;

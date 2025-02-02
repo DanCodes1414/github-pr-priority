@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace PriorityPR.Integrations.Jira.Models;
 
-public abstract class JiraTicket
+public class JiraTicket
 {
     [JsonPropertyName("key")]
     public string Key { get; set; }

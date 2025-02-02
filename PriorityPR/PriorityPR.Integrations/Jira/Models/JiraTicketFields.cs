@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace PriorityPR.Integrations.Jira.Models;
 
-public abstract class JiraTicketFields
+public class JiraTicketFields
 {
     [JsonPropertyName("issuetype")]
     public JiraTicketType Type { get; set; }
